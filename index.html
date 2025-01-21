@@ -11,6 +11,7 @@
 <body>
     <header>
         <div class="inicio">
+            <button onclick="abrirAba()" id="bt-aba"><i class="fa-solid fa-bars"></i></button>
             <div class="logo">
                 <img src="imagens/Captura de tela 2024-11-08 101406.png" alt="">
             </div>
@@ -47,6 +48,22 @@
             </div>
         </div>       
     </header>
+    <div id="aba-direcionamento">
+        <div class="aba">
+            <div class="logo-aba">
+                <h1>Vag!</h1>
+            </div>
+            <div class="textos-aba">
+                <h3>Consult</h3>
+                <h3>Exams</h3>
+                <h3>bath</h3>
+                <h3>Booking history</h3>
+            </div>           
+        </div>  
+        <div id="aba-hight"  onclick="fecharAba()">
+
+        </div>      
+    </div>
     <main>
         <section class="bodyForm">
             <div class="imagens">
@@ -289,6 +306,6 @@
             </div>           
         </div>
     </footer>
-    
+    <script src="app.js"></script>  
 </body>
 </html>
